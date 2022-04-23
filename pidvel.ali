@@ -1,0 +1,76 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U pidvel%b		pidvel.adb		107f88c4 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U pidvel%s		pidvel.ads		8cf7e0e1 BN EE NE OO PK GE
+
+D ada.ads		20200312165510 76789da1 ada%s
+D a-except.ads		20200312165510 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312165510 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200312165510 119b8fb3 ada.streams%s
+D a-tags.ads		20200312165510 491b781d ada.tags%s
+D a-textio.ads		20200312165510 881db35a ada.text_io%s
+D a-unccon.ads		20200312165510 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312165510 5ab55268 interfaces%s
+D i-cstrea.ads		20200312165510 e53d8b8e interfaces.c_streams%s
+D pidvel.ads		20200520212306 8cf7e0e1 pidvel%s
+D pidvel.adb		20200520220641 1495db7f pidvel%b
+D system.ads		20200312165510 4635ec04 system%s
+D s-crtl.ads		20200312165510 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312165510 54135002 system.exception_table%s
+D s-ficobl.ads		20200312165510 078245e4 system.file_control_block%s
+D s-parame.ads		20200312165510 48ec542b system.parameters%s
+D s-secsta.ads		20200312165510 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312165510 a7318a92 system.soft_links%s
+D s-stache.ads		20200312165510 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312165510 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312165510 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312165510 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312165510 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312165510 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 11|1r6 1r23
+X 6 a-textio.ads
+49K13*Text_IO 471e16 11|1w10 1r27
+263U14*Put_Line 11|6s7 7s7 8s7 9s7 21s7 23s8 25s8
+X 10 pidvel.ads
+2F9 Real 8r73 15r19 17r23 18r23 11|3r73 7r25 8r25 9r25 16r51 22r24 23r39
+. 25r36 29r13 31r13 33r13 33r45
+3F9 Entrada 10r51 11|13r49
+4F9 Salida 11r51 11|14r49 36r13 40r13 43r13 47r13
+5k9*PIDvel 2z9 3z9 4z9 13E9 20l5 20e11 11|2b14 52l5 52t11
+6R9*Controlador 8r48 9r51 13c9 19e14 11|3r48 12r52 15r13
+8U14*Programar 8=25 8>61 8>65 8>69 11|3b14 10l8 10t17
+8r25 el_Controlador{6R9} 11|3b25 5m7 7r36 8r36 9r36
+8*61 Kp{2F9} 11|3b61 5r31
+8*65 Ki{2F9} 11|3b65 5r40
+8*69 Kd{2F9} 11|3b69 5r49
+9U14*Controlar 9=24 10>38 10>41 11<41 11|12b14 51l8 51t17
+9r24 con_el_Controlador{6R9} 11|12b25 15m33 15r33 23r50 46m9 46r42 46r74
+10*38 R{3F9} 11|13b39 22r29
+10*41 C{3F9} 11|13b42 22r31
+11*41 U{4F9} 11|14b42 36m8 40m9 43m9 47m9
+15*7 Kp{2F9} 11|5m26 7r51 27r18
+15*11 Ki{2F9} 11|5m35 8r51 31r23
+15*15 Kd{2F9} 11|5m44 9r51 33r23
+17*7 S_Anterior{2F9} 11|5m53 23r69 29r23 46m28 46r61
+18*7 Error_Anterior{2F9} 11|5m71 33r55 46r93 50m12
+X 11 pidvel.adb
+15r7 Cont=15:33{10|6R9} 27r13 29r18 31r18 33r18 33r50 50r7
+16*7 S{10|2F9} 29m8 31r29
+16*10 Error_Actual{10|2F9} 22m8 25r47 27r23 29r37 33r30 50r30
+16*24 Up{10|2F9} 27m7 35r14
+16*28 Ui{10|2F9} 31m7 35r19
+16*32 Ud{10|2F9} 33m7 35r24
+16*36 Res{10|2F9} 35m7 36r20 38r11 41r14 47r20
+16*41 Min{10|2F9} 18m9 38r17 40r20
+16*46 Max{10|2F9} 19m9 41r20 43r20
+

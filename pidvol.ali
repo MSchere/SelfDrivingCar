@@ -1,0 +1,73 @@
+V "GNAT Lib v9"
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK_05
+
+U pidvol%b		pidvol.adb		41605f64 NE OO PK GE
+W ada%s			ada.ads			ada.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+U pidvol%s		pidvol.ads		787f2b23 BN EE NE OO PK GE
+
+D ada.ads		20200312165510 76789da1 ada%s
+D a-except.ads		20200312165510 291912d5 ada.exceptions%s
+D a-ioexce.ads		20200312165510 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200312165510 bb51c45a ada.numerics%s
+D a-stream.ads		20200312165510 119b8fb3 ada.streams%s
+D a-tags.ads		20200312165510 491b781d ada.tags%s
+D a-textio.ads		20200312165510 881db35a ada.text_io%s
+D a-unccon.ads		20200312165510 0e9b276f ada.unchecked_conversion%s
+D interfac.ads		20200312165510 5ab55268 interfaces%s
+D i-cstrea.ads		20200312165510 e53d8b8e interfaces.c_streams%s
+D pidvol.ads		20200520213634 787f2b23 pidvol%s
+D pidvol.adb		20200520220926 0a530347 pidvol%b
+D system.ads		20200312165510 4635ec04 system%s
+D s-crtl.ads		20200312165510 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312165510 54135002 system.exception_table%s
+D s-ficobl.ads		20200312165510 078245e4 system.file_control_block%s
+D s-parame.ads		20200312165510 48ec542b system.parameters%s
+D s-secsta.ads		20200312165510 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312165510 a7318a92 system.soft_links%s
+D s-stache.ads		20200312165510 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200312165510 09bd3940 system.standard_library%s
+D s-stoele.ads		20200312165510 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200312165510 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312165510 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20200312165510 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r23 2r6
+X 4 a-numeri.ads
+16K13*Numerics 32e17 12|2w10
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|1w10 1r27
+263U14*Put_Line 12|7s7 8s7 23s5 26s5 27s5 28s5
+X 11 pidvol.ads
+2F9 Real 8r65 15r11 12|4r65 8r25 15r55 17r12 18r12 20r21 21r21 26r34 27r34
+. 28r32
+3F9 Entrada 10r68 12|12r48
+4F9 Salida 11r51 12|13r49 31r12 36r13 39r13 42r13
+5k9*PIDvol 2z9 3z9 4z9 13E9 17l5 17e11 12|3b14 45l5 45t11
+6R9*Controlador 8r48 9r51 13c9 16e14 12|4r48 11r52 14r13
+8U14*Programar 8=25 8>61 12|4b14 9l8 9t17
+8r25 el_Controlador{6R9} 12|4b25 6m7 8r36
+8*61 Kp{2F9} 12|4b61 6r31
+9U14*Controlar 9=24 10>38 10>43 10>52 11<41 12|11b14 44l8 44t17
+9r24 con_el_Controlador{6R9} 12|11b25 14r33
+10*38 Ref{3F9} 12|12b21
+10*43 Err_lat{3F9} 12|12b26 21r26
+10*52 Err_ang{3F9} 12|12b35 20r26
+11*41 U{4F9} 12|13b42 31m7 36m9 39m9 42m9
+15*7 Kp{2F9} 12|6m26 8r51 30r19
+X 12 pidvol.adb
+14r7 Cont=14:33{11|6R9} 30r14
+15*7 Res{11|2F9} 30m7 31r19 34r11 37r14 42r20
+15*12 Min{11|2F9} 17m5 34r17 36r20
+15*17 Max{11|2F9} 18m5 37r20 39r20
+15*22 Err{11|2F9} 22m5 28r43 30r24
+15*27 Err_ang_ampl{11|2F9} 20m5 22r12 27r45
+15*41 Err_lat_ampl{11|2F9} 21m5 22r27 26r45
+

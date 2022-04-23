@@ -1,0 +1,13 @@
+;
+;   file                 : Robot0.def
+;   created              : jue mar 2 10:14:51 CET 2017
+;   copyright            : (C) 2002 INVETT-Car
+;
+
+LIBRARY	Robot0
+
+SECTIONS .data READ WRITE
+
+EXPORTS
+	Robot0
+

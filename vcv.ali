@@ -1,0 +1,255 @@
+V "GNAT Lib v9"
+M P W=b
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DISPATCHING_CALLS
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_NESTED_FINALIZATION
+RV NO_SECONDARY_STACK
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_STREAMS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_OBSOLESCENT_FEATURES
+RV SPARK_05
+
+U vcv%b			vcv.adb			e0bb5d03 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.streams%s		a-stream.adb		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+Z ada.text_io.integer_io%s
+W gnat%s		gnat.ads		gnat.ali
+W gnat.sockets%s	g-socket.adb		g-socket.ali
+W pidvel%s		pidvel.adb		pidvel.ali
+W pidvol%s		pidvol.adb		pidvol.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.standard_library%s  s-stalib.adb	s-stalib.ali
+Z system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+Z system.val_real%s	s-valrea.adb		s-valrea.ali
+
+D ada.ads		20200312165510 76789da1 ada%s
+D a-calend.ads		20200312165510 b288ede8 ada.calendar%s
+D a-charac.ads		20200312165510 2d3ec45b ada.characters%s
+D a-chlat1.ads		20200312165510 66457d31 ada.characters.latin_1%s
+D a-except.ads		20200312165510 291912d5 ada.exceptions%s
+D a-finali.ads		20200312165510 bf4f806b ada.finalization%s
+D a-flteio.ads		20200312165510 e18a47a0 ada.float_text_io%s
+D a-ioexce.ads		20200312165510 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20200312165510 bb51c45a ada.numerics%s
+D a-nuelfu.ads		20200312165510 03e83d1c ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20200312165510 55716239 ada.numerics.generic_elementary_functions%s
+D a-reatim.ads		20200312165510 0240fc73 ada.real_time%s
+D a-stream.ads		20200312165510 119b8fb3 ada.streams%s
+D a-string.ads		20200312165510 90ac6797 ada.strings%s
+D a-strmap.ads		20200312165510 e8bb714a ada.strings.maps%s
+D a-strunb.ads		20200312165510 8098c91f ada.strings.unbounded%s
+D a-tags.ads		20200312165510 491b781d ada.tags%s
+D a-textio.ads		20200312165510 881db35a ada.text_io%s
+D a-tiflio.ads		20200312165510 56fbda09 ada.text_io.float_io%s
+D a-tiinau.ads		20200312165510 8114c8e4 ada.text_io.integer_aux%s
+D a-tiinio.ads		20200312165510 aa04e5d6 ada.text_io.integer_io%s
+D a-tiinio.adb		20200312165510 df9cd7af ada.text_io.integer_io%b
+D a-unccon.ads		20200312165510 0e9b276f ada.unchecked_conversion%s
+D a-uncdea.ads		20200312165510 eff36322 ada.unchecked_deallocation%s
+D gnat.ads		20200312165510 b5988c27 gnat%s
+D g-socket.ads		20200312165510 b63a5f09 gnat.sockets%s
+D interfac.ads		20200312165510 5ab55268 interfaces%s
+D i-c.ads		20200312165510 5421119b interfaces.c%s
+D i-cstrea.ads		20200312165510 e53d8b8e interfaces.c_streams%s
+D pidvel.ads		20200520212306 8cf7e0e1 pidvel%s
+D pidvel.adb		20200520220641 1495db7f pidvel%b
+D pidvol.ads		20200520213634 787f2b23 pidvol%s
+D pidvol.adb		20200520220926 0a530347 pidvol%b
+D system.ads		20200312165510 4635ec04 system%s
+D s-atacco.ads		20200312165510 4c36d12f system.address_to_access_conversions%s
+D s-atocou.ads		20200312165510 b45c2d8d system.atomic_counters%s
+D s-conca2.ads		20200312165510 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200312165510 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200312165510 54135002 system.exception_table%s
+D s-ficobl.ads		20200312165510 078245e4 system.file_control_block%s
+D s-finmas.ads		20200312165510 7811a767 system.finalization_masters%s
+D s-finroo.ads		20200312165510 4ff27390 system.finalization_root%s
+D s-imgrea.ads		20200312165510 c7a851e2 system.img_real%s
+D s-linux.ads		20200312165510 ed0b8aee system.linux%s
+D s-memory.ads		20200312165510 597d6634 system.memory%s
+D s-multip.ads		20200312165510 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20200312165510 0b994636 system.os_constants%s
+D s-osinte.ads		20200312165510 710cf8c6 system.os_interface%s
+D s-parame.ads		20200312165510 48ec542b system.parameters%s
+D s-pooglo.ads		20200312165510 ede33ef8 system.pool_global%s
+D s-secsta.ads		20200312165510 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20200312165510 a7318a92 system.soft_links%s
+D s-stache.ads		20200312165510 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200312165510 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200312165510 09bd3940 system.standard_library%s
+D s-stalib.adb		20200312165510 f2fe2716 system.standard_library%b
+D s-stoele.ads		20200312165510 2dc34a04 system.storage_elements%s
+D s-stopoo.ads		20200312165510 b16154c2 system.storage_pools%s
+D s-stposu.ads		20200312165510 97a6219c system.storage_pools.subpools%s
+D s-stratt.ads		20200312165510 aedef97e system.stream_attributes%s
+D s-string.ads		20200312165510 8fe54fb7 system.strings%s
+D s-ststop.ads		20200312165510 5fbf1b38 system.strings.stream_ops%s
+D s-tasinf.ads		20200312165510 2b3f8252 system.task_info%s
+D s-taspri.ads		20200312165510 f40ac08d system.task_primitives%s
+D s-taprop.ads		20200312165510 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20200312165510 b9d612e2 system.tasking%s
+D s-traent.ads		20200312165510 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200312165510 34867c83 system.unsigned_types%s
+D s-valrea.ads		20200312165510 fe297711 system.val_real%s
+D s-wchcon.ads		20200312165510 1b7d22d2 system.wch_con%s
+D vcv.adb		20200520220922 c0a445cc vcv%b
+X 1 ada.ads
+16K9*Ada 20e8 71|1r6 1r35 3r6 3r37 4r6 4r23 5r6 6r6 7r6 8r6 9r6 9r29 13r10
+. 14r5 16r6 16r19 28r11 29r9 30r11 30r53 31r15 31r57 57r51 80r19 81r15 83r21
+. 84r21 90r16 91r20 95r49 96r49 99r48 102r51 103r53 127r3 128r3 129r3 130r3
+. 131r27
+X 2 a-calend.ads
+36K13*Calendar 410e17 71|3w10 3r41
+X 5 a-except.ads
+54K13*Exceptions 349e19 71|6w10 57r55
+104V13*Exception_Information{string} 71|57s66
+X 7 a-flteio.ads
+20K13*Float_Text_IO[19|46] 71|9w10 9r33
+X 9 a-numeri.ads
+16K13*Numerics 32e17 71|8r10 14r9
+X 10 a-nuelfu.ads
+18K22*Elementary_Functions[11|39] 71|8w19 14r18
+X 12 a-reatim.ads
+39K13*Real_Time 185e18 71|16w23
+X 13 a-stream.ads
+36K13*Streams 87e16 71|5w10 13r14 28r15 29r13 83r25
+42M9*Stream_Element
+44I9*Stream_Element_Offset<long_long_integer>
+51I12*Stream_Element_Count{44I9} 71|13r22 28r23
+54A9*Stream_Element_Array(42M9)<44I9> 71|29r21
+57x14*Read 71|83R33
+X 14 a-string.ads
+16K13*Strings 35e16 71|7r10 30r15 30r57 31r19 31r61 80r23 81r19 84r25 90r20
+. 91r24 95r53 96r53 99r52 102r55 103r57 127r7 128r7 129r7 130r7 131r31
+X 16 a-strunb.ads
+76K21*Unbounded 491e26 71|7w18 30r23 30r65 31r27 31r69 80r31 81r27 84r33
+. 90r28 91r32 95r61 96r61 99r60 102r63 103r65 127r15 128r15 129r15 130r15
+. 131r39
+79R9*Unbounded_String<6|43R9> 474e14 71|30r33 31r37
+82r4*Null_Unbounded_String{79R9} 71|30r75 31r79 80r41 81r37
+100V13*To_String{string} 71|90s38 91s42 95s71 96s71 99s70 102s73 103s75 131s49
+111U14*Append 71|127s25 129s25
+112r7 Source{79R9} 71|127r33 129r33
+113a7 New_Item{string} 71|127r55 129r55
+115U14*Append 71|84s43 128s25 130s25
+116r7 Source{79R9} 71|84r51 128r33 130r33
+117e7 New_Item{character} 71|84r69 128r55 130r55
+X 18 a-textio.ads
+49K13*Text_IO 471e16 71|1w10 1r39 4w10 4r27 16w10
+242U14*Put 71|52s7 54s7 57s47
+256V13*Get_Line{string} 71|53s42 55s42
+263U14*Put_Line 71|51s5 58s9 110s3 112s5 116s5 122s3 123s3 124s3 125s3
+X 21 a-tiinio.ads
+46k21*Integer_IO 85e27 71|23r25
+X 25 gnat.ads
+34K9*GNAT 57e9 71|2r6 2r35 64r3
+X 26 g-socket.ads
+55K14*Sockets 1472e17 71|2w11 2r40 64r8
+379U14*Initialize 71|64s16
+412I9*Socket_Type<integer> 71|24r12
+492I9*Port_Type<integer>
+597R9*Sock_Addr_Type 600e14 71|25r12
+598r7*Addr{517R9} 71|66m11
+599i7*Port{492I9} 71|67m11
+623V13*Inet_Addr{517R9} 71|66s19
+1008U14*Create_Socket 71|65s3
+1049U14*Connect_Socket 71|68s3
+1213P9*Stream_Access(13|39R9) 71|26r12
+1216V13*Stream{1213P9} 71|69s14
+X 30 pidvel.ads
+5k9*PIDvel 20e11 71|10w6 19r26
+6R9 Controlador 71|21r21[19]
+8U14 Programar 71|73s11[19]
+9U14 Controlar 71|120s11[19]
+X 32 pidvol.ads
+5k9*PIDvol 17e11 71|11w6 20r26
+6R9 Controlador 71|22r21[20]
+8U14 Programar 71|74s11[20]
+9U14 Controlar 71|121s11[20]
+X 34 system.ads
+67M9*Address
+X 45 s-memory.ads
+53V13*Alloc{34|67M9} 103i<c,__gnat_malloc>22
+68U14*Free 104i<c,__gnat_free>22
+76V13*Realloc{34|67M9} 105i<c,__gnat_realloc>22
+X 54 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+X 56 s-stalib.adb
+93U14 Break_Start 94i<c,__gnat_break_start>22
+X 71 vcv.adb
+18U11*Vcv 18b11 135l5 135t8
+19K11 PID_Vel[30|5] 21r13 73r3 120r3
+20K11 PID_Vol[32|5] 22r13 74r3 121r3
+21r3 Cont_Vel{30|6R9[19]} 73m21 73r21 120m21 120r21
+22r3 Cont_Vol{32|6R9[20]} 74m21 74r21 121m21 121r21
+23K11 Ent_ES[21|46]
+24i3 Client{26|412I9} 65m18 68r19 69r22
+25r3 Address{26|597R9} 66m3 67m3 68r27
+26p3 Channel{26|1213P9} 69m3 76r17 83r39 131r17 134r17
+27a3 Send{string} 76r57 131r74 134r56
+28i3 Offset{13|51I12} 83m58
+29a3 Data{13|54A9} 83m52 84r96 85r43
+30r3 RetMsg{16|79R9} 81m5 84m61 84r61 90r49 91r53 95r82 96r82 99r81 102r84
+. 103r86
+31r3 ControlMsg{16|79R9} 80m5 127m43 127r43 128m43 128r43 129m43 129r43 130m43
+. 130r43 131r60
+32F8 err_ang_t<short_float> 43r12 95r33
+33F8 err_lat_t<short_float> 44r12 96r33
+34F8 velocidad_t<short_float> 47r62 53r18 55r18 59r20 60r20 103r35 118r22
+. 124r28 129r67
+35F8 distancia_t<short_float> 46r18 99r30 102r33 123r39
+36F8 volante_t<short_float> 48r25 125r26 127r67
+37F8 accFreno_t<short_float>
+38F8 radio_t<long_float>
+39e3 c{character} 91m15 92r19 92r30
+40i3 j{integer} 89m7 95r90 96r90 99r89 102r92 103r94 106m13
+41i3 count{integer} 79m5 93m15 93r24 94r15
+42f9 Kp{float} 70m3 73r31 74r31
+42f13 Ki{float} 71m3 73r35
+42f17 Kd{float} 72m3 73r39
+43f3 Err_ang{32F8} 95m22 121r73
+44f3 Err_lat{33F8} 96m22 121r57
+45f3 Curvatura{float} 77m3 78r9
+45f14 CurvaturaSig{float} 77m20 78r27
+45f28 Tipo{float}
+45f34 TipoSig{float}
+46f3 dist{35F8} 99m22 118r86 123r57
+46f9 distSig{35F8} 77m41 78r50 102m22
+47f3 velocidad{34F8} 77m55 78r68 103m22 120r59
+47f14 vel_max{34F8} 55m7 60m9 111r7 114r22 118r57
+47f23 vel_min{34F8} 53m7 59m9 118r40
+47f32 ref_Velocidad{34F8} 114m5 118m5 120r37
+47f47 vel_calculada{34F8} 120m77 120r77 124r46 129r85
+48f3 ref_Volante{36F8} 121r37
+48f16 volante{36F8} 121m89 121r89 125r42 127r83
+49U13 introduce_vel 49b13 61l9 61t22 63s3
+57r14 ocurrencia{5|63R9} 57r88
+90i11 i{integer} 91r61 95r93 96r93 99r92 102r95 103r97 106r18
+

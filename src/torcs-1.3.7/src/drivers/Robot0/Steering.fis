@@ -1,0 +1,41 @@
+[System]
+Name='Steering'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=4
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Angulo'
+Range=[-180 180]
+NumMFs=2
+MF1='derecha':'trapmf',[-180 -180 -15 15]
+MF2='izquierda':'trapmf',[-15 15 180 180]
+
+[Input2]
+Name='Distancia'
+Range=[-999 999]
+NumMFs=2
+MF1='derecha':'trapmf',[-999 -999 -1 1]
+MF2='izquierda':'trapmf',[-1 1 999 999]
+
+[Output1]
+Name='output1'
+Range=[-1 1]
+NumMFs=4
+MF1='izquierdaFondo':'trimf',[-0.91 -0.9 -0.89]
+MF2='izquierda':'trimf',[-0.21 -0.2 -0.19]
+MF3='derecha':'trimf',[0.19 0.2 0.21]
+MF4='derechaFondo':'trimf',[0.89 0.9 0.91]
+
+[Rules]
+2 1, 3 (1) : 1
+2 2, 4 (1) : 1
+1 1, 1 (1) : 1
+1 2, 2 (1) : 1

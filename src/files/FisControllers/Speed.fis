@@ -1,0 +1,81 @@
+[System]
+Name='Speed'
+Type='mamdani'
+Version=2.0
+NumInputs=4
+NumOutputs=1
+NumRules=18
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='currentTrack'
+Range=[0 1]
+NumMFs=2
+MF1='recta':'trimf',[0 0 0]
+MF2='curva':'trimf',[1 1 1]
+
+[Input2]
+Name='timeToNextStretch'
+Range=[0 10]
+NumMFs=2
+MF1='corto':'trapmf',[-9 -1 0 3]
+MF2='largo':'trapmf',[0 3 10 12]
+
+[Input3]
+Name='currentRadius'
+Range=[0 2000]
+NumMFs=7
+MF1='casiRecta':'trapmf',[200 250 2000 2500]
+MF2='muyCerrada':'trimf',[20 60 70]
+MF3='cerrada':'trimf',[60 70 80]
+MF4='normal':'trimf',[70 80 100]
+MF5='abierta':'trimf',[80 100 200]
+MF6='muyAbierta':'trimf',[100 200 250]
+MF7='recta':'trimf',[0 0 0]
+
+[Input4]
+Name='nextRadius'
+Range=[0 2000]
+NumMFs=7
+MF1='casiRecta':'trapmf',[200 250 2000 2500]
+MF2='muyCerrada':'trimf',[20 60 70]
+MF3='cerrada':'trimf',[60 70 80]
+MF4='normal':'trimf',[70 80 100]
+MF5='abierta':'trimf',[80 100 200]
+MF6='muyAbierta':'trimf',[100 200 250]
+MF7='recta':'trimf',[0 0 0]
+
+[Output1]
+Name='speed'
+Range=[0 350]
+NumMFs=6
+MF1='vRecta':'trimf',[320 330 340]
+MF2='vMuyCerrada':'trimf',[100 110 120]
+MF3='vCerrada':'trimf',[120 130 140]
+MF4='vNormal':'trimf',[130 140 150]
+MF5='vAbierta':'trimf',[155 165 175]
+MF6='vMuyAbierta':'trimf',[190 200 210]
+
+[Rules]
+1 1 0 1, 1 (1) : 1
+1 1 0 2, 2 (1) : 1
+1 1 0 3, 3 (1) : 1
+1 1 0 4, 4 (1) : 1
+1 1 0 5, 5 (1) : 1
+1 1 0 6, 6 (1) : 1
+1 2 0 0, 1 (1) : 1
+2 2 1 0, 1 (1) : 1
+2 2 2 0, 2 (1) : 1
+2 2 3 0, 3 (1) : 1
+2 2 4 0, 4 (1) : 1
+2 2 5 0, 5 (1) : 1
+2 2 6 0, 6 (1) : 1
+2 1 0 2, 2 (1) : 1
+2 1 0 3, 3 (1) : 1
+2 1 0 4, 4 (1) : 1
+2 1 0 5, 5 (1) : 1
+2 1 0 6, 6 (1) : 1
